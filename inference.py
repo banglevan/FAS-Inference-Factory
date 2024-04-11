@@ -1,7 +1,7 @@
 import onnxruntime as ot
 import numpy as np
 
-PATH_TO_CHECKPOINT_ONNX = 'checkpoints/fas-best.onnx'
+PATH_TO_CHECKPOINT_ONNX = 'weights/fas-best.onnx'
 
 class LivenessDetection():
     def __init__(self) -> None:
